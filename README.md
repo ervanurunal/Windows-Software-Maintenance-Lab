@@ -1,6 +1,6 @@
-# Windows Software Maintenance Lab
+## Windows Software Maintenance Lab
 
-## Overview
+### Overview
 
 This project documents a hands-on Windows software maintenance lab completed as part of my IT Support Specialist training.
 
@@ -14,7 +14,7 @@ These are common tasks in IT support and are important for maintaining reliable 
 
 ---
 
-## Objectives
+### Objectives
 
 The objectives of this lab were to:
 
@@ -28,9 +28,9 @@ The objectives of this lab were to:
 
 ---
 
-## Tools & Resources
+### Tools & Resources
 
-### Tools Used
+#### Tools Used
 
 - Windows Virtual Machine
 - Qwiklabs hands-on lab environment
@@ -41,9 +41,13 @@ The objectives of this lab were to:
 - GIMP
 - Web browser
 
+---
+
 ### Lab Type
 
 **Hands-on Windows Software Maintenance Lab**
+
+---
 
 ### Operating System
 
@@ -51,9 +55,9 @@ The objectives of this lab were to:
 
 ---
 
-# Lab Walkthrough
+## Lab Walkthrough
 
-## Step 1 — Start the Lab
+### Step 1 — Start the Lab
 
 I started the hands-on lab by selecting the green **Start Lab** button.
 
@@ -65,7 +69,7 @@ I selected **Open Windows VM** to access the Windows virtual machine where the s
 
 ---
 
-## Step 2 — Verify the Initial Software Setup
+### Step 2 — Verify the Initial Software Setup
 
 Before making any changes, I checked which applications were already installed on the Windows virtual machine.
 
@@ -86,9 +90,9 @@ This initial verification established the starting state of the computer before 
 
 ---
 
-# Part 1 — Installing Mozilla Firefox
+## Part 1 — Installing Mozilla Firefox
 
-## Step 3 — Download Firefox
+### Step 3 — Download Firefox
 
 The first software maintenance task was to install **Mozilla Firefox**.
 
@@ -101,7 +105,7 @@ I selected the **Download Firefox** option to download the Windows installer.
 
 ---
 
-## Step 4 — Open the Firefox Installer
+### Step 4 — Open the Firefox Installer
 
 After the download finished, I selected the Firefox installer from the browser's download area.
 
@@ -114,7 +118,7 @@ If Windows displayed a security prompt asking for permission to install the soft
 
 ---
 
-## Step 5 — Complete the Firefox Installation
+### Step 5 — Complete the Firefox Installation
 
 The Firefox installation process began.
 
@@ -130,9 +134,9 @@ A Firefox shortcut was also added to the desktop.
 
 ---
 
-# Part 2 — Updating VLC Media Player
+## Part 2 — Updating VLC Media Player
 
-## Step 6 — Identify the Existing VLC Version
+### Step 6 — Identify the Existing VLC Version
 
 The Windows virtual machine already had VLC Media Player installed.
 
@@ -144,7 +148,7 @@ I used **Apps & Features** to verify the existing installation.
 
 ---
 
-## Step 7 — Download the VLC Installer
+### Step 7 — Download the VLC Installer
 
 I opened the official VideoLAN VLC download page.
 
@@ -156,7 +160,7 @@ The installer was downloaded to the Windows virtual machine.
 
 ---
 
-## Step 8 — Open the VLC Installer
+### Step 8 — Open the VLC Installer
 
 After the download finished, I opened the VLC installer.
 
@@ -169,7 +173,7 @@ I selected the appropriate language and continued by selecting **Next**.
 
 ---
 
-## Step 9 — Upgrade VLC Using Previous Settings
+### Step 9 — Upgrade VLC Using Previous Settings
 
 During the installation process, I selected:
 
@@ -181,7 +185,7 @@ The installation progress bar showed that VLC was being updated.
 
 ---
 
-## Step 10 — Complete the VLC Update
+### Step 10 — Complete the VLC Update
 
 After the update process finished, a confirmation message indicated that VLC had been installed.
 
@@ -191,7 +195,7 @@ I unchecked the option to run VLC and selected **Finish** to close the installer
 
 ---
 
-## Step 11 — Verify the Updated VLC Version
+### Step 11 — Verify the Updated VLC Version
 
 I reopened **Apps & Features** to verify that VLC had been updated.
 
@@ -203,9 +207,9 @@ This confirmed that the software update was successfully completed.
 
 ---
 
-# Part 3 — Uninstalling GIMP
+## Part 3 — Uninstalling GIMP
 
-## Step 12 — Locate GIMP
+### Step 12 — Locate GIMP
 
 The final software maintenance task was to uninstall **GIMP** from the Windows virtual machine.
 
@@ -215,7 +219,7 @@ I returned to **Apps & Features** and located GIMP in the list of installed appl
 
 ---
 
-## Step 13 — Select Uninstall
+### Step 13 — Select Uninstall
 
 I selected **GIMP** and chose the **Uninstall** option.
 
@@ -227,7 +231,7 @@ I selected **Yes** to begin the uninstallation process.
 
 ---
 
-## Step 14 — Complete the GIMP Uninstallation
+### Step 14 — Complete the GIMP Uninstallation
 
 The uninstallation process began and a progress bar displayed the status.
 
@@ -241,7 +245,7 @@ I selected **OK** to close the confirmation message.
 
 ---
 
-## Step 15 — Verify the Final Software Configuration
+### Step 15 — Verify the Final Software Configuration
 
 After completing all three maintenance tasks, I verified the software configuration.
 
@@ -255,7 +259,7 @@ This confirmed that all required software maintenance tasks were completed succe
 
 ---
 
-# Software Maintenance Summary
+### Software Maintenance Summary
 
 | Task | Application | Initial State | Action | Final State |
 |---|---|---|---|---|
@@ -265,7 +269,7 @@ This confirmed that all required software maintenance tasks were completed succe
 
 ---
 
-# Windows Concepts Practiced
+### Windows Concepts Practiced
 
 During this lab, I practiced:
 
@@ -283,31 +287,31 @@ During this lab, I practiced:
 
 ---
 
-# Troubleshooting Approach
+## Troubleshooting Approach
 
 I followed a systematic approach when working with the Windows virtual machine.
 
-### 1. Identify
+  #### 1. Identify
 
 I first identified the software installed on the system.
 
-### 2. Verify
+  #### 2. Verify
 
 I used **Apps & Features** to determine which applications were installed and identify the existing VLC version.
 
-### 3. Install
+  #### 3. Install
 
 I downloaded and installed Mozilla Firefox because it was not already present on the system.
 
-### 4. Update
+  #### 4. Update
 
 I downloaded the appropriate VLC installer and upgraded the existing installation.
 
-### 5. Uninstall
+  #### 5. Uninstall
 
 I removed GIMP through the Windows application management interface.
 
-### 6. Verify
+  #### 6. Verify
 
 After each task, I checked the system to confirm that the expected change had occurred.
 
@@ -315,25 +319,25 @@ This approach helped ensure that software changes were completed correctly and t
 
 ---
 
-# Results
+### Results
 
 I successfully completed all three software maintenance tasks.
 
-### Mozilla Firefox
+#### Mozilla Firefox
 
 Firefox was successfully installed on the Windows virtual machine.
 
-### VLC Media Player
+#### VLC Media Player
 
 VLC Media Player was successfully updated from the older installed version to the newer version provided by the lab.
 
-### GIMP
+#### GIMP
 
 GIMP was successfully uninstalled and removed from the Windows virtual machine.
 
 ---
 
-## Skills Demonstrated
+### Skills Demonstrated
 - **Technical Skills**
   - Windows software management
   - Application installation
@@ -362,7 +366,7 @@ GIMP was successfully uninstalled and removed from the Windows virtual machine.
 
 ---
 
-## Cybersecurity Relevance
+### Cybersecurity Relevance
 
 Software maintenance is an important part of cybersecurity and IT operations.
 
