@@ -1,4 +1,4 @@
-## Windows Software Maintenance Lab
+## Windows Software Maintenance
 
 ### Overview
 
@@ -54,8 +54,9 @@ The objectives of this lab were to:
 **Windows**
 
 ---
+---
 
-## Lab Walkthrough
+### Lab Walkthrough
 
 ### Step 1 — Start the Lab
 
@@ -90,7 +91,7 @@ This initial verification established the starting state of the computer before 
 
 ---
 
-## Part 1 — Installing Mozilla Firefox
+### Part 1 — Installing Mozilla Firefox
 
 ### Step 3 — Download Firefox
 
@@ -134,7 +135,7 @@ A Firefox shortcut was also added to the desktop.
 
 ---
 
-## Part 2 — Updating VLC Media Player
+### Part 2 — Updating VLC Media Player
 
 ### Step 6 — Identify the Existing VLC Version
 
@@ -207,7 +208,7 @@ This confirmed that the software update was successfully completed.
 
 ---
 
-## Part 3 — Uninstalling GIMP
+### Part 3 — Uninstalling GIMP
 
 ### Step 12 — Locate GIMP
 
@@ -258,6 +259,7 @@ The final state was:
 This confirmed that all required software maintenance tasks were completed successfully.
 
 ---
+---
 
 ### Software Maintenance Summary
 
@@ -267,6 +269,7 @@ This confirmed that all required software maintenance tasks were completed succe
 | Update | VLC Media Player | Older version | Updated VLC | Newer version |
 | Uninstall | GIMP | Installed | Removed GIMP | Uninstalled |
 
+---
 ---
 
 ### Windows Concepts Practiced
@@ -286,8 +289,9 @@ During this lab, I practiced:
 - Software troubleshooting
 
 ---
+---
 
-## Troubleshooting Approach
+### Troubleshooting Approach
 
 I followed a systematic approach when working with the Windows virtual machine.
 
@@ -318,6 +322,7 @@ After each task, I checked the system to confirm that the expected change had oc
 This approach helped ensure that software changes were completed correctly and that the final system state matched the requirements of the lab.
 
 ---
+---
 
 ### Results
 
@@ -335,6 +340,7 @@ VLC Media Player was successfully updated from the older installed version to th
 
 GIMP was successfully uninstalled and removed from the Windows virtual machine.
 
+---
 ---
 
 ### Skills Demonstrated
@@ -364,6 +370,7 @@ GIMP was successfully uninstalled and removed from the Windows virtual machine.
   - Verification
   - Technical communication
 
+---
 ---
 
 ### Cybersecurity Relevance
